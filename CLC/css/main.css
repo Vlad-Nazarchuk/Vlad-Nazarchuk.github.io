@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+header { 
+    background: #343c4e;
+    background-image: url("../img/header/header.jpg");
+    background-repeat: no-repeat;/*картинка не повторюється*/
+    background-position: center;
+    background-size: cover; /*картинка розтягується на весь екран*/ 
+    
+    height: 100vh;/*ростягування*/ 
+}
+
+.container {
+    width: 1200px;
+}
+
+.header__text {
+    position: absolute;
+    right: 20px;
+    bottom: 90px;
+    
+    font-weight: 600;
+    width: 640px;
+    font-size: 30px;
+    color: #fff;
+    margin-left: auto;
+    text-align: right;
+}
+
+.header__arrow {
+    width: 60px;
+    height: 50px;
+    margin-left: -30px;
+    
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    color: #FFF;
+}
+
+.logo__title {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo__title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo__text {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.menu-mobile a {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.menu a {
+    font-weight: 700;
+    color: #000;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.menu a:hover {
+    color: #0e55f7;
+}
+
+.menu li {
+    display: block;
+}
+
+.menu__actite a {
+    font-weight: 700;
+    color: #0e55f7; 
+}
+
+.line::after {
+    position: absolute;
+    content: '';
+    height: 1.6px;
+    width: 100px;
+    bottom: -15px;
+    left: 44%;
+    background:#000000;
+}
+
+.soon img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.ministries img{
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.ministries__text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
