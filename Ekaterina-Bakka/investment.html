@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Прайс</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    
+                <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+                <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css"> 
+    
+</head>
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h4>Ekaterina Bakka</h4>
+            </div>
+            <ul class="list-unstyled menu">
+                <li class="menu__item">
+                    <a href="index.html">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="about.html">Про меня</a>
+                </li>
+                <li class="menu__item menu-click">
+                    <a href="portfolio.html">Портфолио</a>
+                    <button class="dropbtn"></button>
+                    <ul class="submenu">
+                        <li class="menu__item">
+                            <a href="wedding.html">СВАДЬБА</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="engagement.html">LOVE STORY</a>
+                        </li>
+                        <li>
+                            <a href="fashion.html">ПОРТРЕТ</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="casual.html">СЕМЕЙНАЯ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item-active">
+                    <a href="investment.html">Прайс</a>
+                </li>
+                <li class="menu__item">
+                    <a href="contact.html">Контакты</a>
+                </li>
+            </ul>
+            <div class="social">
+                <a href="https://www.instagram.com/katerina_bakka/"><img src="img/icon/instagram.png" alt="instagram">katerina_bakka</a>
+            </div>
+            <div class="cart">
+                <p>All content Copyright © 2021 Ekaterina Bakka</p>
+            </div>
+        </nav>
+
+        <div id="content">
+            <nav class="navbars">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" id="sidebarCollapse" class="btn navbar-btn">
+                                <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                <span>Menu</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="investment">
+                <div class="container-fluid">
+                    <div class="row">
+                        <h1 class="investment__title">
+                            Выбери свой пакет
+                        </h1>
+                        <p class="investment__text">
+                            Я подобрала для Вас самые оптимальные наборы услуг, исходя из моего опыта. Вы можете выбрать любой из них или написать мне и я просчитаю для вас индивидуальный пакет.
+                        </p>
+                        <div class="investment__block">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5">
+                                <div class="wrapper-in">
+                                    <h3 class="investment__block_title">
+                                    Стандарт
+                                    </h3>
+                                    <div class="investment__block_line"></div>
+                                    <div class="investment__block_price">
+                                        $250
+                                    </div>
+                                    <p class="investment__block_text">
+                                        В пакет входит 6 часов съемки свадебного дня, 350 готовых фото в обработке, деревянная шкатулка с флешкой и 15 распечатанных фотографий.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="investment__img_standard"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="investment__block">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5">
+                                <div class="wrapper-in">
+                                    <h3 class="investment__block_title">
+                                        Делюкс
+                                    </h3>
+                                    <div class="investment__block_line"></div>
+                                    <div class="investment__block_price">
+                                        $350
+                                    </div>
+                                    <p class="investment__block_text">
+                                        В пакет входит 8 часов съемки, от 400 до 600 готовых фото в обработке, деревянная шкатулка с флешкой и 25 распечатанных фото.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="investment__img_deluxe"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="investment__block">
+                            <div class="row align-items-center">
+                                <div class="col-lg-5">
+                                <div class="wrapper-in">
+                                    <h3 class="investment__block_title">
+                                    Премиум
+                                </h3>
+                                    <div class="investment__block_line"></div>
+                                    <div class="investment__block_price">
+                                        $475
+                                    </div>
+                                    <p class="investment__block_text">
+                                        В пакет входит 2 часа love story и 8 часов свадебной съемки, от 400 до 600 готовых свадебных фото в обработке+ от 100 до 150 фото с love story, деревянная шкатулка с флешкой и 30 распечатанных фото и фотокнига размером 23x23.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="investment__img_premium"></div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="investment__title question">
+                                Часто задаваемые вопросы
+                            </h1>
+                        </div>
+                        <div class="question__block">
+                            <div class="col-lg-6">
+                                <h3 class="question__title">
+                                    КАК ТЫ ФОТОГРАФИРУЕШЬ СВАДЬБЫ?
+                                </h3>
+                                <div class="question__text">
+                                    <p>
+                                        Я очень люблю помогать моим парам в день свадьбы. Весь день я буду рядом, буду подбадривать, заставлять улыбаться. А своей камерой я замечу каждую деталь, эмоцию, чувства, трогательные и сумасшедшие моменты вашего прекрасного свадебного дня. Хоть я и за живые эмоциональные фото, но не беспокойтесь, если вы чувствуете себя неуверенно в кадре, ведь моя задача помочь вам с этим.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                <h3 class="question__title">
+                                    КОГДА МЫ ПОЛУЧИМ НАШИ ФОТОГРАФИИ?
+                                </h3>
+                                <div class="question__text">
+                                    <p>
+                                        Вы получите ссылку на онлайн-галерею, а так же на облачное хранилище со всеми вашими фотографиями в течение максимум 8 недель (иногда меньше, в зависимости от сезона, когда я фотографирую вашу историю). Вы можете скачать все фотографии из галереи, а также поделиться ими, выбрать понравившиеся, а также заказать распечатки!
+                                    </p>
+                                    <p>
+                                        Так же все мои пары получают деревянную шкатулку с флешкой и распечатанными фото в подарок!
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                <h3 class="question__title">
+                                    ГДЕ ТЫ НАХОДИШЬСЯ И СНИМАЕШЬ ЛИ ЗА ПРЕДЕЛАМИ СВОЕГО ГОРОДА?
+                                </h3>
+                                <div class="question__text">
+                                    <p>
+                                        В основном я снимаю в Киеве и Киевской области. Но так же при необходимости выезжаю в любую точку Украины. Поездки заграницу обсуждаются индивидуально.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                <h3 class="question__title">
+                                    СКОЛЬКО ФОТОГРАФИЙ МЫ ПОЛУЧИМ?
+                                </h3>
+                                <div class="question__text">
+                                    <p>
+                                        За 8 часов свадебного дня вы получите от 400 до 600 фотографий в обработке. Я всегда выбираю качество, а не количество, поэтому отбираю наиболее лучшие и значимые фото, что бы рассказать вашу историю.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="investment__title order">
+                                Готовы начать?
+                            </h1>
+                        </div>
+                        <div class="col-lg-12">
+                            <a href="#" class="order__btn">Заказать сьемку</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- Bootstrap Js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <!-- jQuery Custom Scroller CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
